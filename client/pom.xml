@@ -17,4 +17,17 @@
 			<artifactId>opensmpp-core</artifactId>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<!-- To run the test application run 'mvn exec:java' -->
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.5.0</version>
+				<configuration>
+					<mainClass>org.smpp.test.SMPPTest</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
