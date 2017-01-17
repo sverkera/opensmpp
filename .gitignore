@@ -1,5 +1,11 @@
-target
+# Mvn target folder
+target/
+
+# Eclipse project files
 .project
-.settings
 .classpath
-.DS_Store
+.settings
+
+# Files created by the test application
+test.dbg0
+test.evt0
